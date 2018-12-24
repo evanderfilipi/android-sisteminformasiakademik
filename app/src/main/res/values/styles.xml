@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NavigationTheme_sw360dp" parent="AppTheme">
+        <item name="android:textSize">16dp</item>
+        <item name="listPreferredItemHeightSmall">45dp</item>
+    </style>
+
+    <style name="NavigationTheme_sw400dp" parent="AppTheme">
+        <item name="android:textSize">18dp</item>
+        <item name="listPreferredItemHeightSmall">50dp</item>
+    </style>
+
+    <style name="NavigationTheme_sw600dp" parent="AppTheme">
+        <item name="android:textSize">22dp</item>
+        <item name="listPreferredItemHeightSmall">60dp</item>
+    </style>
+
+    <style name="NavigationTheme_sw720dp" parent="AppTheme">
+        <item name="android:textSize">25dp</item>
+        <item name="listPreferredItemHeightSmall">70dp</item>
+    </style>
+
+    <style name="NavigationTheme_sw800dp" parent="AppTheme">
+        <item name="android:textSize">27dp</item>
+        <item name="listPreferredItemHeightSmall">80dp</item>
+    </style>
+
+</resources>

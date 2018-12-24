@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aplikasi SIA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_nilai_siswa">NilaiSiswaActivity</string>
+    <string name="title_activity_jadwal_siswa">JadwalSiswaActivity</string>
+    <string name="title_activity_absen_siswa">AbsenSiswaActivity</string>
+    <string name="title_activity_profile_user">ProfileUserActivity</string>
+</resources>

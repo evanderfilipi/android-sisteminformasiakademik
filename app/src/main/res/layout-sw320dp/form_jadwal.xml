@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <EditText
+                android:id="@+id/idJadwalEdt"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background_normal"/>
+
+            <EditText
+                android:id="@+id/kodeKelasEdt"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background_normal"/>
+
+            <EditText
+                android:id="@+id/kodeMapel2Edt"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background_normal"/>
+
+            <TextView
+                android:id="@+id/namaSiswa2Tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:textColor="#009B4C"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/hariSpn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textAlignment="center"></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:text="Jam Mulai"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/jamMulaiEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Jam Mulai (ex: 12:00:00)"
+                android:inputType="time"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:text="Jam Selesai"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/jamSelesaiEdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Jam Selesai (ex: 12:00:00)"
+                android:inputType="time"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Tahun Ajaran"
+                android:layout_marginBottom="5dp"/>
+
+            <EditText
+                android:id="@+id/tahunAjaran2Edt"
+                android:layout_marginBottom="10dp"
+                android:hint="ex: 2017/2018"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background_normal"/>
+
+            <Spinner
+                android:id="@+id/jenisJadwalSpn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"></Spinner>
+
+            <EditText
+                android:id="@+id/nis2Edt"
+                android:visibility="gone"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background_normal"/>
+
+            <EditText
+                android:id="@+id/nip2Edt"
+                android:visibility="gone"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background_normal"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

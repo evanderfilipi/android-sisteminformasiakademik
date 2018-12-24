@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu1"
+            android:icon="@drawable/ic_absensi"
+            android:title="-" />
+        <item
+            android:id="@+id/menu2"
+            android:icon="@drawable/ic_jadwal"
+            android:title="-" />
+        <item
+            android:id="@+id/menu3"
+            android:icon="@drawable/ic_nilai"
+            android:title="-" />
+        <item
+            android:id="@+id/menu4"
+            android:icon="@drawable/ic_pemberitahuan"
+            android:title="Pengumuman" />
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/profil"
+            android:icon="@drawable/ic_settings"
+            android:title="Pengaturan Profil" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
