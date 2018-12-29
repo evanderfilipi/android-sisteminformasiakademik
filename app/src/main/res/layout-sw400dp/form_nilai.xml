@@ -135,7 +135,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="Nilai UAS"
+                android:text="Nilai Akhir"
                 android:textSize="16dp"
                 android:layout_marginBottom="5dp"/>
 
